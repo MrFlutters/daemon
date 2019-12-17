@@ -1,7 +1,7 @@
-FROM node:10-alpine
+FROM node:13.3.0-alpine
 
-LABEL author="Michael Parker" maintainer="parker@pterodactyl.io"
-
+# LABEL author="Michael Parker" maintainer="parker@pterodactyl.io"
+LABEL author="Hotaru"
 COPY . /srv/daemon
 
 WORKDIR /srv/daemon
