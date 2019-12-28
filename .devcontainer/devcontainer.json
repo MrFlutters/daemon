@@ -1,6 +1,6 @@
 {
-	"name": "Node.js 12.13.1",
-	"dockerFile": "Dockerfile",
+	"name": "Node.js 13.3.0",
+	"dockerFile": "Dockerfile"
 	// "extensions": [
 	// 	"dbaeumer.vscode-eslint"
 	// ],

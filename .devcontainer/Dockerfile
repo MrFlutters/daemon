@@ -4,7 +4,7 @@
 #-------------------------------------------------------------------------------------------------------------
 
 ARG DOCKER_BASE_TYPE=stretch-slim
-ARG NODEJS_VERSION=12.13.1
+ARG NODEJS_VERSION=13.3.0
 ARG DOCKER_IMAGE=node:${NODEJS_VERSION}-${DOCKER_BASE_TYPE}
 
 FROM ${DOCKER_IMAGE}
