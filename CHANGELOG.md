@@ -1,6 +1,12 @@
 # Changelog
 This file is a running track of new features and fixes to each version of the daemon released starting with `v0.2.0`.
 
+## v0.6.12.3 (Elasticized Elanodactylus - Hotaru Changes)
+### Changed
+* Update Dependencys
+* Fix inaccurate CPU reporting.
+* Fixes server memory usage calculations to match the logic of the `docker stats` command.
+
 ## v0.6.12 (Elasticized Elanodactylus)
 ### Fixed
 * Fixes a bug with the packs system that would not properly handle an error response from the panel resulting in the server
